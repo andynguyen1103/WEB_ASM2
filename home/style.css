@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Indie+Flower&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ul.nav{
+    font-weight: bold;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a.nav-link{
+font-weight: bold;
+font-family: arial;
+font-size: 120%;
+}
+.custom-toggler.navbar-toggler{
+    border-color: rgb(13, 110, 252);
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(13, 110, 252)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  a.navbar-brand{
+      font-weight: bold;
+      font-family: 'Indie Flower';
+      font-size: 160%;
+  }
+img{
+    max-width: 100%;
+    height: auto;
+}
+.nav-item{
+    align-items: center;
+    display: flex;
+}
+.nike-item img{
+    height: 50%;
+    width: auto;
+    max-height: 50%;
+}
+.carousel-caption h1, .carousel-caption p{
+    color: white;
+}
+.carousel-caption h1{
+    font-weight: 800;
+}
+.price-details h6{
+    padding: 3% 2%;
+}
